@@ -17,6 +17,7 @@
     "ethers": "^5.6.9",
     "https-browserify": "^1.0.0",
     "json-rpc": "^0.3.0",
+    "metamask": "^0.0.1-security",
     "os-browserify": "^0.3.0",
     "process": "^0.11.10",
     "react": "^18.2.0",
@@ -28,6 +29,7 @@
     "stream-http": "^3.2.0",
     "swiper": "^8.3.2",
     "url": "^0.11.0",
+    "walletconnect": "^1.7.8",
     "web-vitals": "^2.1.4",
     "webpack": "^5.74.0"
   },
