@@ -4,17 +4,17 @@
   "homepage": "https://gitname.github.io/react-NFT",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.16.4",
-    "@testing-library/react": "^13.3.0",
-    "@testing-library/user-event": "^13.5.0",
-    "@web3-react/core": "^6.1.9",
+    "@testing-library/jest-dom": "^6.4.2",
+    "@testing-library/react": "^14.3.0",
+    "@testing-library/user-event": "^14.5.2",
+    "@web3-react/core": "^8.2.3",
     "@web3-react/injected-connector": "^6.0.7",
     "@web3-react/walletconnect-connector": "^6.2.13",
     "@web3-react/walletlink-connector": "^6.2.14",
-    "assert": "^2.0.0",
+    "assert": "^2.1.0",
     "buffer": "^6.0.3",
     "crypto-browserify": "^3.12.0",
-    "ethers": "^5.6.9",
+    "ethers": "^6.11.1",
     "https-browserify": "^1.0.0",
     "json-rpc": "^0.3.0",
     "metamask": "^0.0.1-security",
@@ -27,16 +27,16 @@
     "source-map-loader": "^5.0.0",
     "stream-browserify": "^3.0.0",
     "stream-http": "^3.2.0",
-    "swiper": "^8.3.2",
-    "url": "^0.11.0",
+    "swiper": "^11.1.1",
+    "url": "^0.11.3",
     "walletconnect": "^1.7.8",
-    "web-vitals": "^2.1.4",
-    "webpack": "^5.74.0"
+    "web-vitals": "^3.5.2",
+    "webpack": "^5.91.0"
   },
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "react-app-rewired start",
+    "start": " react-app-rewired start",
     "build": " react-app-rewired build",
     "test": "react-app-rewired test",
     "eject": "react-scripts eject"
@@ -60,6 +60,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^4.0.0"
+    "gh-pages": "^6.1.1"
   }
 }
