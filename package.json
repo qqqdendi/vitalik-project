@@ -16,6 +16,7 @@
     "crypto-browserify": "^3.12.0",
     "ethers": "^5.6.9",
     "https-browserify": "^1.0.0",
+    "json-rpc": "^0.3.0",
     "os-browserify": "^0.3.0",
     "process": "^0.11.10",
     "react": "^18.2.0",
@@ -34,7 +35,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-app-rewired start",
-    "build": "GENERATE_SOURCEMAP=false react-app-rewired build",
+    "build": " react-app-rewired build",
     "test": "react-app-rewired test",
     "eject": "react-scripts eject"
   },
