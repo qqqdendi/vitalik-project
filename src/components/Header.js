@@ -1,9 +1,5 @@
 import React, { memo, useRef, useState } from 'react';
-import GenderIcon from './UI/GenderIcon';
-import Logo from './UI/Logo';
-import { ethers } from 'ethers'
-import abi from './abi.json'
-import { getProvider } from "./ModalWallet";
+
 
 
 

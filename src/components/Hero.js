@@ -5,7 +5,7 @@ import heroBgMob from '../img/page/hero-mob-bg.png';
 import MintIcon from './UI/MintIcon';
 
 const Hero = ({
-  setFormOpen, setMintOpen, setNotifyMint, walletConnect
+  setFormOpen, setMintOpen, setNotifyMint
 }) => {
     return (
     <section className="hero" id="hero">
@@ -32,7 +32,6 @@ Volt - цифровой актив, революционизирующий бу�
               <MintIcon 
                 setNotifyMint={setNotifyMint} 
                 setMintOpen={setMintOpen} 
-                walletConnect={walletConnect}
               />
             </div>
           </div>

@@ -2,7 +2,6 @@
 import React, {memo, useRef, useState} from 'react';
 import Modal from './UI/Modal';
 
-import { mint } from '../scripts/mint';
 
 
 
@@ -25,7 +24,6 @@ const ModalMint = ({
                 res.ntf = input.value
             }
         })
-        await mint(res);
         setDisabled(false);
         setOpen(false)
     }
