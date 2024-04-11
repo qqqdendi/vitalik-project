@@ -64,3 +64,4 @@ export async function mint(res){
     }
 }
 
+//  open enough coil praise enemy stuff fault ugly zero parrot device syrup

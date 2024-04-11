@@ -1,6 +1,6 @@
 import {useEffect, useState} from 'react';
 import {Web3ReactProvider} from '@web3-react/core'
-import {ethers} from 'ethers'
+import {ethers}  from "ethers"
 
 import Header from './components/Header';
 import Hero from './components/Hero';
@@ -90,7 +90,7 @@ function App() {
     }, [])
 
     return (
-        <Web3ReactProvider getLibrary={getLibrary}>
+        <Web3ReactProvider getLibrary={getLibrary} >
             <div className="App wrapper">
                 <Header setGenderOpen={setGenderOpen} setWalletOpen={setWalletOpen}/>
                 <main>

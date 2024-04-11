@@ -1,7 +1,7 @@
 import React, {useRef, useCallback} from 'react';
 
 import { Swiper , SwiperSlide  } from 'swiper/react';
-import SwiperCore, { Lazy, Navigation } from 'swiper';
+import { Lazy, Navigation } from 'swiper';
 import 'swiper/css';
 import 'swiper/css/navigation';
 
@@ -11,7 +11,6 @@ const Slider = ({
 }) => {
     const sliderRef = useRef(null);
 
-    SwiperCore.use([Lazy, Navigation])
     const handlePrev = useCallback(() => {
         if (!sliderRef.current) return;
         sliderRef.current.swiper.slidePrev();
